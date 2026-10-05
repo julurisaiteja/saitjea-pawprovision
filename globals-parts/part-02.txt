@@ -1,0 +1,25 @@
+er}
+.clay-copy{flex:1}
+.clay-brand{font-family:var(--font-display);font-size:clamp(3.5rem,10vw,6.5rem);margin:0;color:var(--brand);line-height:.95;text-shadow:4px 5px 0 color-mix(in srgb,var(--accent) 50%,transparent)}
+.clay-shelf{display:flex;gap:1.25rem;overflow-x:auto;padding:1.5rem}
+.clay-shelf a{flex:0 0 220px;background:var(--surface);border-radius:32px;padding:1rem;box-shadow:8px 10px 0 color-mix(in srgb,var(--muted) 28%,#000);transition:transform .2s}
+.clay-shelf a:hover{transform:translateY(-6px) rotate(-1deg)}
+.clay-shelf img{aspect-ratio:1;object-fit:cover;border-radius:40% 60% 50% 50%/50% 40% 60% 50%;margin-bottom:.75rem}
+
+.reveal-pop{animation:popIn .7s cubic-bezier(.34,1.56,.64,1) both}
+.delay-1{animation-delay:.12s}.delay-2{animation-delay:.22s}.delay-3{animation-delay:.32s}
+@keyframes popIn{from{opacity:0;transform:scale(.92) translateY(16px)}to{opacity:1;transform:none}}
+
+.pp-offer-strip{margin:0 1.25rem;padding:1rem 1.25rem;background:var(--surface);border-radius:999px;box-shadow:6px 8px 0 color-mix(in srgb,var(--accent) 45%,#000);text-align:center;font-weight:800;animation:bouncey 3.5s ease-in-out infinite}
+.pp-stat{transition:transform .25s}.pp-stat:hover{transform:translateY(-6px) rotate(1deg)}
+.pp-guides{max-width:70rem;margin:0 auto;padding:1rem 1.25rem 2rem}
+.pp-guide-grid{margin-top:1.25rem;display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(180px,1fr))}
+.pp-guide-card{transition:transform .25s}.pp-guide-card:hover{transform:translateY(-6px) rotate(-1deg)}
+.pp-refill{max-width:70rem;margin:0 auto;padding:1rem 1.25rem 2rem}
+
+/* shell */
+.pp-shell{min-height:100%}
+.pp-header{position:sticky;top:0;z-index:40;background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:blur(10px)}
+.pp-header-inner{max-width:72rem;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.9rem 1.25rem}
+.pp-logo{display:inline-flex;align-items:center;gap:.55rem}
+.pp-blob-mark{width:1.6rem;height:1.6rem;b
